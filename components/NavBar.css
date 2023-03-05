@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+:root {
+    --c1: #469597;
+    --c2: #5BA199;
+    --c3: #BBC6C8;
+    --c4: #E5E3E4;
+    --c5: #DDBEAA;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--c1);
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: var(--c2);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }

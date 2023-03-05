@@ -1,0 +1,62 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-container2 {
+    padding-top: 200px;
+    display: grid;
+    grid-template-rows: 100px 400px 400px 400px;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  
+  .grid-item2 {
+    background-color: #556d71;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    min-width: 400px;
+     /* border: 1px solid #ccc;  */
+  }
+
+  .grid-item4 {
+    background-color: #556d71;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    min-width: 400px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  .top-row2 {
+    background-color: #DDBEAA;
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  input[type=text], input[type=password] {
+    background-color: white;
+    color: #556d71;
+  }
+
+  :root {
+    --c1: #469597;
+    --c2: #5BA199;
+    --c3: #BBC6C8;
+    --c4: #E5E3E4;
+    --c5: #DDBEAA;
+  }
+  
+  
+  
